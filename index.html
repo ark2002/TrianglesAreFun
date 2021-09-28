@@ -11,28 +11,52 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
-  <body>
+<body>
 
-    <div id="top">
-      <h1 id="tophead">Triangles are fun<h1>
-        <img id="topimg" src="mainimg.png">
-        <a id="letsgo" href="/#main">Let's Begin</a>
-    </div>
+  <div class="topnav">
+  <a class="active" href="index.html">Is Triangle?</a>
+  <a href="area.html">Area</a>
+  <a href="hypo.html">Hypotenuse</a>
+  <a href="quiz.html">Quiz</a>
+</div>
 
-    <div id="main" class="container">
-      <h3 class="github-repo">
+  <div class="container">
+    <h3 class="github-repo">
         <a class="github-repo-link" href="https://github.com/ark2002/TrianglesAreFun">Github-Repo</a>
     </h3>
-    <a id="quiz" class="innerlinks"href="/quiz.html">A Fun Quiz</a>
-    <a id="hypo" class="innerlinks"href="/hypo.html">Calculate Hypotenuse</a>
-    <a id="area" class="innerlinks"href="/area.html">Calculate Area</a>
-    <a id="angles" class="innerlinks"href="/angle.html">Angles For Triangles?</a>
-    </div>
+    <h3 class:"headerStyle"></h3>
+    <input
+          type="number"
+          id="angle1"
+          class="inputStyle"
+          placeholder="Enter the 1st angle"
+        />
+        <input
+          type="number"
+          id="angle2"
+          class="inputStyle"
+          placeholder="Enter the 2nd angle"
+        />
+        <input
+          type="number"
+          id="angle3"
+          class="inputStyle"
+          placeholder="Enter the 3rd angle"
+        />
+        <button id="checkAngleSum" class="checkBtn-style">Check</button>
+        <div id="result">
+        <p id="angleSum" class=""></p>
+        <p id="resultText" class="resultStyle"></p>
+      </div>
+  </div>
 
-    <footer class="footer">
+  <footer class="footer">
     <a href="https://github.com/ark2002"><i class="fab fa-github icon"></i></a>
     <a href="https://www.linkedin.com/in/aryaklahane"><i class="fab fa-linkedin icon"></i></a>
     <a href="https://medium.com/@aryakprakashlahane"><i class="fab fa-medium icon"></i></a>
   </footer>
-  </body>
+  <script src="angle.js"></script>
+</body>
 </html>
+  
+  

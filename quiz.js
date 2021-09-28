@@ -23,11 +23,7 @@ function clickEventHandler(event) {
   let index = 0
   for (let each of quesData) {
     if (each[1] == correctAns[index]) {
-      quesDivs[index].style.color = 'lightgreen'
-      score++
-    } else {
-      quesDivs[index].style.color = 'pink'
-    }
+      score++}
 
     index++
   }
